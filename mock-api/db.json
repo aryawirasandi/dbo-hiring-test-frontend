@@ -1,0 +1,349 @@
+{
+    "auth": {
+        "user": {
+            "id": 1,
+            "name": "Admin Super",
+            "email": "admin@company.com",
+            "role": "Super Admin"
+        },
+        "token": "mock-jwt-token-12345"
+    },
+    "customers": [
+        {
+            "id": "C-001",
+            "full_name": "Budi Santoso",
+            "email": "budi.s@example.com",
+            "phone": "+628123456789",
+            "address": "Jl. Merdeka No. 10, Jakarta",
+            "status": "Active",
+            "join_date": "2023-01-15"
+        },
+        {
+            "id": "C-002",
+            "full_name": "Siti Aminah",
+            "email": "siti.a@example.com",
+            "phone": "+62857123456",
+            "address": "Jl. Sudirman No. 5, Bandung",
+            "status": "Inactive",
+            "join_date": "2023-05-20"
+        },
+        {
+            "id": "C-003",
+            "full_name": "Ahmad Wijaya",
+            "email": "ahmad.w@example.com",
+            "phone": "+628567891234",
+            "address": "Jl. Gatot Subroto No. 15, Surabaya",
+            "status": "Active",
+            "join_date": "2023-06-10"
+        },
+        {
+            "id": "C-004",
+            "full_name": "Dewi Lestari",
+            "email": "dewi.l@example.com",
+            "phone": "+628134567890",
+            "address": "Jl. Asia Afrika No. 22, Bandung",
+            "status": "Active",
+            "join_date": "2023-07-05"
+        },
+        {
+            "id": "C-005",
+            "full_name": "Rudi Hartono",
+            "email": "rudi.h@example.com",
+            "phone": "+628987654321",
+            "address": "Jl. Diponegoro No. 8, Semarang",
+            "status": "Active",
+            "join_date": "2023-08-12"
+        },
+        {
+            "id": "C-006",
+            "full_name": "Maya Sari",
+            "email": "maya.s@example.com",
+            "phone": "+628765432109",
+            "address": "Jl. Pemuda No. 30, Yogyakarta",
+            "status": "Inactive",
+            "join_date": "2023-09-01"
+        },
+        {
+            "id": "C-007",
+            "full_name": "Eko Prasetyo",
+            "email": "eko.p@example.com",
+            "phone": "+628654321098",
+            "address": "Jl. Malioboro No. 45, Yogyakarta",
+            "status": "Active",
+            "join_date": "2023-10-18"
+        },
+        {
+            "id": "C-008",
+            "full_name": "Rina Fitriani",
+            "email": "rina.f@example.com",
+            "phone": "+628543210987",
+            "address": "Jl. Thamrin No. 12, Jakarta",
+            "status": "Active",
+            "join_date": "2023-11-25"
+        },
+        {
+            "id": "C-009",
+            "full_name": "Dian Permata",
+            "email": "dian.p@example.com",
+            "phone": "+628432109876",
+            "address": "Jl. Veteran No. 7, Malang",
+            "status": "Active",
+            "join_date": "2023-12-03"
+        },
+        {
+            "id": "C-010",
+            "full_name": "Hendra Kusuma",
+            "email": "hendra.k@example.com",
+            "phone": "+628321098765",
+            "address": "Jl. Pahlawan No. 20, Denpasar",
+            "status": "Inactive",
+            "join_date": "2024-01-08"
+        },
+        {
+            "id": "C-1769959302771",
+            "full_name": "arya",
+            "email": "arya@mail.com",
+            "phone": "08213123131",
+            "address": "jakarta",
+            "status": "Active",
+            "join_date": "2026-02-01"
+        }
+    ],
+    "orders": [
+        {
+            "id": "TRX-2024-001",
+            "customerId": "C-001",
+            "customer_name": "Budi Santoso",
+            "total_amount": 150000,
+            "status": "Paid",
+            "items": [
+                {
+                    "product": "Kopi Susu",
+                    "qty": 2,
+                    "price": 25000
+                },
+                {
+                    "product": "Sandwich",
+                    "qty": 1,
+                    "price": 35000
+                }
+            ],
+            "payment_method": "GoPay",
+            "created_at": "2024-01-20T10:00:00Z"
+        },
+        {
+            "id": "TRX-2024-002",
+            "customerId": "C-002",
+            "customer_name": "Siti Aminah",
+            "total_amount": 85000,
+            "status": "Pending",
+            "items": [
+                {
+                    "product": "Nasi Goreng",
+                    "qty": 1,
+                    "price": 45000
+                },
+                {
+                    "product": "Es Teh",
+                    "qty": 2,
+                    "price": 20000
+                }
+            ],
+            "payment_method": "Cash",
+            "created_at": "2024-01-21T14:30:00Z"
+        },
+        {
+            "id": "TRX-2024-003",
+            "customerId": "C-003",
+            "customer_name": "Ahmad Wijaya",
+            "total_amount": 275000,
+            "status": "Paid",
+            "items": [
+                {
+                    "product": "Steak Wagyu",
+                    "qty": 1,
+                    "price": 200000
+                },
+                {
+                    "product": "Lemon Tea",
+                    "qty": 2,
+                    "price": 25000
+                },
+                {
+                    "product": "French Fries",
+                    "qty": 1,
+                    "price": 25000
+                }
+            ],
+            "payment_method": "OVO",
+            "created_at": "2024-01-22T12:15:00Z"
+        },
+        {
+            "id": "TRX-2024-004",
+            "customerId": "C-004",
+            "customer_name": "Dewi Lestari",
+            "total_amount": 120000,
+            "status": "Refunded",
+            "items": [
+                {
+                    "product": "Pizza Margherita",
+                    "qty": 1,
+                    "price": 95000
+                },
+                {
+                    "product": "Coca Cola",
+                    "qty": 1,
+                    "price": 25000
+                }
+            ],
+            "payment_method": "Dana",
+            "created_at": "2024-01-23T18:45:00Z"
+        },
+        {
+            "id": "TRX-2024-005",
+            "customerId": "C-005",
+            "customer_name": "Rudi Hartono",
+            "total_amount": 65000,
+            "status": "Paid",
+            "items": [
+                {
+                    "product": "Mie Ayam",
+                    "qty": 2,
+                    "price": 25000
+                },
+                {
+                    "product": "Es Jeruk",
+                    "qty": 1,
+                    "price": 15000
+                }
+            ],
+            "payment_method": "Cash",
+            "created_at": "2024-01-24T09:30:00Z"
+        },
+        {
+            "id": "TRX-2024-006",
+            "customerId": "C-006",
+            "customer_name": "Maya Sari",
+            "total_amount": 180000,
+            "status": "Failed",
+            "items": [
+                {
+                    "product": "Sate Ayam",
+                    "qty": 3,
+                    "price": 40000
+                },
+                {
+                    "product": "Nasi Putih",
+                    "qty": 3,
+                    "price": 10000
+                },
+                {
+                    "product": "Es Kelapa",
+                    "qty": 3,
+                    "price": 10000
+                }
+            ],
+            "payment_method": "Bank Transfer",
+            "created_at": "2024-01-25T20:00:00Z"
+        },
+        {
+            "id": "TRX-2024-007",
+            "customerId": "C-007",
+            "customer_name": "Eko Prasetyo",
+            "total_amount": 95000,
+            "status": "Paid",
+            "items": [
+                {
+                    "product": "Bakso Jumbo",
+                    "qty": 2,
+                    "price": 35000
+                },
+                {
+                    "product": "Es Teh Manis",
+                    "qty": 2,
+                    "price": 12500
+                }
+            ],
+            "payment_method": "GoPay",
+            "created_at": "2024-01-26T11:45:00Z"
+        },
+        {
+            "id": "TRX-2024-008",
+            "customerId": "C-008",
+            "customer_name": "Rina Fitriani",
+            "total_amount": 210000,
+            "status": "Pending",
+            "items": [
+                {
+                    "product": "Ayam Geprek",
+                    "qty": 2,
+                    "price": 35000
+                },
+                {
+                    "product": "Nasi Goreng Seafood",
+                    "qty": 1,
+                    "price": 55000
+                },
+                {
+                    "product": "Jus Alpukat",
+                    "qty": 3,
+                    "price": 28333
+                }
+            ],
+            "payment_method": "Credit Card",
+            "created_at": "2024-01-27T16:20:00Z"
+        },
+        {
+            "id": "TRX-2024-009",
+            "customerId": "C-009",
+            "customer_name": "Dian Permata",
+            "total_amount": 145000,
+            "status": "Paid",
+            "items": [
+                {
+                    "product": "Gado-Gado",
+                    "qty": 2,
+                    "price": 30000
+                },
+                {
+                    "product": "Soto Ayam",
+                    "qty": 2,
+                    "price": 35000
+                },
+                {
+                    "product": "Es Campur",
+                    "qty": 1,
+                    "price": 15000
+                }
+            ],
+            "payment_method": "OVO",
+            "created_at": "2024-01-28T13:10:00Z"
+        },
+        {
+            "id": "TRX-2024-010",
+            "customerId": "C-010",
+            "customer_name": "Hendra Kusuma",
+            "total_amount": 320000,
+            "status": "Paid",
+            "items": [
+                {
+                    "product": "Rib Eye Steak",
+                    "qty": 1,
+                    "price": 250000
+                },
+                {
+                    "product": "Caesar Salad",
+                    "qty": 1,
+                    "price": 45000
+                },
+                {
+                    "product": "Mineral Water",
+                    "qty": 2,
+                    "price": 12500
+                }
+            ],
+            "payment_method": "Credit Card",
+            "created_at": "2024-01-29T19:30:00Z"
+        }
+    ]
+}

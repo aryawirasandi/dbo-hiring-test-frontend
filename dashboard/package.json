@@ -1,0 +1,26 @@
+{
+  "name": "dashboard",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.4.0",
+    "axios": "^1.13.4",
+    "nuxt": "^4.3.0",
+    "tailwindcss": "^4.1.18",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "vitest": "^4.0.18"
+  }
+}
